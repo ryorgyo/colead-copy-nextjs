@@ -1,91 +1,112 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import Image from "next/image";
+import { Inter } from "@next/font/google";
+import styles from "src/styles/css/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+    <div>
+      <main>
+        <section className={styles.firstView}>
+          <Image
+            src={"/firstView/background.png"}
+            alt={""}
+            fill
+            sizes=""
+            className={styles.backgroundImg}
+          />
+          <h2 className={styles.slogan}>
+            <p>
+              最短<span>1</span>
+              <span>週間</span>でお振り込みが可能
+            </p>
+            <p>
+              太陽光発電<span>の</span>
+              <span>スピード買取</span>
+            </p>
           </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <div className={styles.sloganImg}>
+            <div className={`${styles.leftImg} ${styles.img}`}>
+              <Image src={"/firstView/left.png"} alt={""} fill sizes="" />
+            </div>
+            <div className={`${styles.rightImg} ${styles.img}`}>
+              <Image src={"/firstView/right.png"} alt={""} fill sizes="" />
+            </div>
+          </div>
+          <div className={`${styles.btnImg} ${styles.img}`}>
+            <Image src={"/global/global-btn.png"} alt={""} fill sizes="" />
+          </div>
+        </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
+        <section className={styles.hero}>
+          <Image
+            src={"/hero/triangle.png"}
+            alt={""}
+            fill
+            sizes=""
+            className={styles.backgroundImg}
+          />
+          <h2>
+            <p>太陽光発電所をすぐに売りたい</p>
+            <p>そのようなお悩みを抱えている方はご相談ください。</p>
           </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+          <div className={styles.content}>
+            <div className={styles.checkList}>
+              <div className={styles.checkText}>
+                <div className={styles.checkImg}>
+                  <Image src={"/hero/checkmark.png"} alt={""} fill sizes="" />
+                </div>
+                <p>資金が必要になりなるべく早く現金化したい。</p>
+              </div>
+              <div className={styles.checkText}>
+                <div className={styles.checkImg}>
+                  <Image src={"/hero/checkmark.png"} alt={""} fill sizes="" />
+                </div>
+                <p>
+                  管理が手間。度重なる制度改正にも
+                  <br />
+                  ついていけないので手放したい。
+                </p>
+              </div>
+              <div className={styles.checkText}>
+                <div className={styles.checkImg}>
+                  <Image src={"/hero/checkmark.png"} alt={""} fill sizes="" />
+                </div>
+                <p>他社に依頼したがなかなか売れない。</p>
+              </div>
+            </div>
+            <div className={styles.personImg}>
+              <Image src={"/hero/person.png"} alt={""} fill sizes="" />
+            </div>
+          </div>
+        </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
+        <section className={styles.about}>
+          <h2>
+            <p>
+              最短<span>1</span>
+              <span>週間</span>で決済可能
+            </p>
+            <p>スムーズな売却でストレスフリー。</p>
           </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          <div className={styles.discription}>
+            <p>
+              太陽光発電の買取ならColeadにご相談ください。
+              自社で買い取るのでスピーディ。
+              太陽光発電事業に精通したプロフェッショナルがワンストップで対応するので手続きもスムーズです。
+            </p>
+          </div>
+          <div className={styles.companyImg}>
+            <div className={styles.author}>
+              <Image src={"/hero/author.png"} alt={""} fill sizes="" />
+            </div>
+            <div className={styles.own}>
+              <Image src={"/hero/own.png"} alt={""} fill sizes="" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
 }

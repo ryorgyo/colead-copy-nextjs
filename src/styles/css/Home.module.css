@@ -1,0 +1,224 @@
+.header {
+  background-color: white;
+  width: max-content;
+  height: 8rem;
+  display: flex;
+  padding: 0 0 0 22rem;
+}
+.header .imgDiv {
+  position: relative;
+  width: 19rem;
+  height: 4.8rem;
+  margin: auto 2rem auto 0;
+}
+.header .textDiv {
+  line-height: 2.5rem;
+  margin: auto 0;
+}
+.header .textDiv p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer {
+  height: 23.1rem;
+  padding: 4rem 32rem 3.1rem 32rem;
+  background-color: #333333;
+}
+.footer .imgDiv {
+  position: relative;
+  width: 19rem;
+  height: 4.8rem;
+  margin: auto;
+}
+.footer .textDiv {
+  margin: 2.5rem 0 3.5rem;
+}
+.footer .textDiv p {
+  font-size: 1.6rem;
+  height: 1.8rem;
+  color: #fff;
+}
+.footer .textDiv :nth-child(1) {
+  margin-bottom: 0.6rem;
+}
+.footer .copyright {
+  width: max-content;
+  margin: auto;
+}
+.footer .copyright p {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+.firstView {
+  position: relative;
+  width: 144rem;
+  height: 70.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8.9rem 0 8.2rem;
+  background-color: #000;
+  z-index: -2;
+}
+.firstView .backgroundImg {
+  z-index: -1;
+  opacity: 0.75;
+}
+.firstView .slogan {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+.firstView .slogan :nth-child(1) {
+  font-size: 3.7rem;
+  line-height: 3.7rem;
+}
+.firstView .slogan :nth-child(1) span {
+  color: #e51a3f;
+  text-shadow: 0 0 black;
+}
+.firstView .slogan :nth-child(1) :nth-child(1) {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+}
+.firstView .slogan :nth-child(1) :nth-child(2) {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+}
+.firstView .slogan :nth-child(2) {
+  font-size: 6.9rem;
+  line-height: 6.9rem;
+}
+.firstView .slogan :nth-child(2) :nth-child(1) {
+  font-size: 6.1rem;
+  line-height: 6.1rem;
+}
+.firstView .slogan :nth-child(2) :nth-child(2) {
+  font-size: 8.5rem;
+  line-height: 8.5rem;
+}
+.firstView .sloganImg {
+  display: flex;
+  margin-bottom: 11.7rem;
+}
+.firstView .img {
+  position: relative;
+}
+.firstView .leftImg {
+  width: 27rem;
+  height: 5.6rem;
+  margin-right: 6rem;
+}
+.firstView .rightImg {
+  width: 27rem;
+  height: 5.6rem;
+}
+.firstView .btnImg {
+  width: 48rem;
+  height: 11rem;
+}
+
+.hero {
+  position: relative;
+  width: 144rem;
+  height: 51.2rem;
+  padding: 7.2rem 32.1rem 0;
+}
+.hero .backgroundImg {
+  z-index: -1;
+}
+.hero h2 {
+  width: fit-content;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.hero h2 :nth-child(1) {
+  margin-bottom: 2.6rem;
+}
+.hero h2 :nth-child(1) {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  color: #e51a3f;
+}
+.hero h2 :nth-child(2) {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+.hero .content {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .content .checkList .checkText {
+  display: flex;
+  margin-bottom: 2.9rem;
+}
+.hero .content .checkList .checkText .checkImg {
+  position: relative;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.hero .content .checkList p {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.hero .content .personImg {
+  position: relative;
+  width: 25.7rem;
+  height: 15.6rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.2rem 22rem 6rem;
+}
+.about h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4.6rem;
+}
+.about h2 :nth-child(1) {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+.about h2 :nth-child(1) :nth-child(1) {
+  font-size: 7.8rem;
+  line-height: 7.8rem;
+  color: #e51a3f;
+}
+.about h2 :nth-child(1) :nth-child(2) {
+  color: #e51a3f;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+.about h2 :nth-child(2) {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.about .discription p {
+  font-size: 2rem;
+}
+.about .companyImg {
+  display: flex;
+  align-items: flex-end;
+}
+.about .companyImg .author {
+  position: relative;
+  width: 47.1rem;
+  height: 23.4rem;
+}
+.about .companyImg .own {
+  position: relative;
+  width: 47.1rem;
+  height: 24.9rem;
+}
+
+/*# sourceMappingURL=Home.module.css.map */
