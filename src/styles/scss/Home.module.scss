@@ -1,6 +1,5 @@
 .header {
   background-color: white;
-  width: max-content;
   height: 8rem;
   display: flex;
   padding: 0 0 0 22rem;
@@ -54,7 +53,6 @@
 
 .firstView {
   position: relative;
-  width: 144rem;
   height: 70.9rem;
   display: flex;
   flex-direction: column;
@@ -71,6 +69,7 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+    text-align: center;
     :nth-child(1) {
       font-size: 3.7rem;
       line-height: 3.7rem;
@@ -124,7 +123,6 @@
 
 .hero {
   position: relative;
-  width: 144rem;
   height: 51.2rem;
   padding: 7.2rem 32.1rem 0;
   .backgroundImg {
@@ -137,8 +135,6 @@
     margin: auto;
     :nth-child(1) {
       margin-bottom: 2.6rem;
-    }
-    p {
     }
     :nth-child(1) {
       font-size: 4.5rem;
@@ -159,10 +155,12 @@
       .checkText {
         display: flex;
         margin-bottom: 2.9rem;
+
         .checkImg {
           position: relative;
           width: 1.8rem;
           height: 1.8rem;
+          margin-right: 1.6rem;
         }
       }
       p {
@@ -183,13 +181,24 @@
   flex-direction: column;
   align-items: center;
   padding: 5.2rem 22rem 6rem;
+  position: relative;
+  .absolute {
+    position: absolute;
+    .backColead {
+      position: relative;
+      width: 100rem;
+      height: 25.16rem;
+      z-index: -1;
+    }
+  }
   h2 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 4.6rem;
     :nth-child(1) {
       font-size: 5rem;
-      line-height: 5rem;
+      line-height: 7.8rem;
+      margin-bottom: 0.4rem;
       :nth-child(1) {
         font-size: 7.8rem;
         line-height: 7.8rem;
@@ -207,13 +216,25 @@
     }
   }
   .discription {
+    width: 80rem;
+    margin-bottom: 5rem;
     p {
       font-size: 2rem;
+      ruby {
+        rt {
+          font-size: 1.4rem;
+        }
+      }
+      .br {
+        display: block;
+      }
     }
   }
   .companyImg {
+    width: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     .author {
       position: relative;
       width: 47.1rem;
@@ -223,6 +244,339 @@
       position: relative;
       width: 47.1rem;
       height: 24.9rem;
+    }
+  }
+}
+
+.cvContact {
+  position: relative;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.2rem 0 1rem;
+  background-color: #000;
+  z-index: -2;
+  .backImg {
+    z-index: -1;
+    opacity: 0.55;
+  }
+  .text {
+    font-weight: bold;
+    color: #fff;
+    width: max-content;
+    text-align: center;
+    line-height: 5.8rem;
+    :nth-child(1) {
+      font-size: 3.6rem;
+    }
+    :nth-child(2) {
+      font-size: 4rem;
+    }
+  }
+  h2 {
+    position: relative;
+    width: 27.9rem;
+    height: 7rem;
+    margin-bottom: 2.81rem;
+  }
+  div {
+    position: relative;
+    width: 48rem;
+    height: 13rem;
+  }
+}
+
+.reason {
+  background-color: #f0f0f0;
+  padding: 8.2rem 22rem 4.6111rem;
+  height: 127.4rem;
+  h2 {
+    font-size: 5.5rem;
+    line-height: 9.4rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-bottom: 9rem;
+    z-index: 1;
+    &::before {
+      content: "REASON";
+      color: #e8e8eb;
+      font-size: 12.5rem;
+      font-weight: bold;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      z-index: -1;
+    }
+    & :nth-child(1) {
+      margin-right: 0.6rem;
+    }
+    :nth-child(2) {
+      margin-left: 0.6rem;
+    }
+    span {
+      font-size: 9.4rem;
+      color: #e51a3f;
+    }
+  }
+  .cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+      width: 47.5rem;
+      height: 42.7rem;
+      padding: 1.5rem 3rem 0;
+      background-color: #fff;
+      border-top-left-radius: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-bottom: 5.4rem;
+      .number {
+        font-size: 6rem;
+        line-height: 6rem;
+        font-weight: bold;
+        color: #e51a3f;
+        position: absolute;
+        top: -7%;
+        left: 0;
+        z-index: 2;
+      }
+      .reasonImg {
+        position: unset;
+        margin-bottom: 2rem;
+        .img {
+          position: relative !important;
+          width: 75% !important;
+          height: unset !important;
+          display: block;
+          margin: auto;
+        }
+      }
+      h3 {
+        font-size: 2rem;
+        line-height: 3.2rem;
+        font-weight: bold;
+        width: 39rem;
+        text-align: center;
+        margin-bottom: 2.6rem;
+      }
+      .dis {
+        font-size: 1.6rem;
+        line-height: 2.9rem;
+        width: 41.5rem;
+      }
+    }
+  }
+}
+
+.flow {
+  padding: 9.6rem 17.9rem 14.7rem;
+  h2 {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 11.2rem;
+    z-index: 2;
+    &::before {
+      content: "FLOW";
+      font-size: 14.5rem;
+      line-height: 14.5rem;
+      font-weight: bold;
+      position: absolute;
+      color: #f8f8f8;
+      z-index: -1;
+    }
+  }
+  .cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .flowCard {
+      width: 27rem;
+      margin: 0 4.1rem 6.8rem;
+      .step {
+        font-weight: bold;
+        color: #e51a3f;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        :nth-child(1) {
+          font-size: 1.8rem;
+          line-height: 1.8rem;
+        }
+        :nth-child(2) {
+          font-size: 4rem;
+          line-height: 4rem;
+        }
+      }
+      .img {
+        position: relative;
+        width: 13rem;
+        height: 13rem;
+        margin: 0 auto 2.5rem;
+        .flowImg {
+        }
+      }
+      h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+      p {
+        font-size: 1.6rem;
+        line-height: 2.9rem;
+      }
+    }
+  }
+}
+
+.qa {
+  padding: 9.7rem 0 10rem;
+  background-color: #f8f8f8;
+  h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12.2rem;
+    position: relative;
+    z-index: 2;
+    &::before {
+      content: "FAQ";
+      font-size: 14rem;
+      line-height: 14rem;
+      font-weight: bold;
+      position: absolute;
+      color: #b5b9be;
+      opacity: 0.1;
+      z-index: -1;
+      text-align: center;
+      top: 150%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  }
+  .contentBox {
+    width: 80rem;
+    margin: auto;
+    .one {
+      margin-bottom: 4rem;
+      .question {
+        display: flex;
+        border-bottom: 0.1rem solid #ced2d8;
+        padding: 0 0 1.3rem;
+        :nth-child(1) {
+          font-size: 3.2rem;
+          line-height: 3.2rem;
+          font-weight: bold;
+          color: #e51a3f;
+          margin-right: 0.8rem;
+        }
+        :nth-child(2) {
+          font-size: 2rem;
+          line-height: 2rem;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+        }
+      }
+      .answer {
+        display: flex;
+        padding: 1.5rem 0 0;
+        :nth-child(1) {
+          font-size: 3.2rem;
+          line-height: 3.2rem;
+          color: #b5b9be;
+          margin: 0 0.8rem 0 0.2rem;
+          font-weight: bold;
+        }
+        :nth-child(2) {
+          font-size: 1.6rem;
+          line-height: 1.6rem;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  background-color: #eaf3fa;
+  padding: 7.9rem 32rem 10rem;
+
+  .slogan {
+    font-weight: bold;
+    margin-bottom: 7.8rem;
+    p {
+      font-size: 4.6rem;
+      line-height: 4.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 9rem;
+        line-height: 9rem;
+        color: #e51a3f;
+      }
+    }
+    h2 {
+      font-size: 6rem;
+      line-height: 6rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .contactBox {
+    background-color: #fff;
+    border-top-left-radius: 4rem;
+    padding: 4.7rem 4rem 6rem;
+    h3 {
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 4.5rem;
+    }
+    .formBox {
+      border-bottom: solid 0.1rem #e2e3e5;
+      display: flex;
+      align-items: flex-end;
+      padding: 0 2rem 2rem;
+      p {
+        font-size: 1.6rem;
+      }
+      :nth-child(1) {
+        margin-right: 1.6rem;
+      }
+      :nth-child(2) {
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 0.3rem 1.1rem;
+        color: #fff;
+        background-color: #e51a3f;
+        height: min-content;
+      }
+      :nth-child(4) {
+        width: 6.8rem;
+        text-align: center;
+        display: flex;
+        float: right;
+      }
+      input {
+        border: 0.1rem solid #b5b9be;
+        border-radius: 0.3rem;
+        width: 24.8rem;
+        height: 5rem;
+      }
     }
   }
 }
