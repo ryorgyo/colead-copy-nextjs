@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "src/styles/css/Home.module.css";
-import { CvContact } from "./cvContact";
+import { CvContact } from "src/app/CvContact";
 
 const inter = Inter({ subsets: ["latin"] });
 
