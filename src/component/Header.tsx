@@ -1,8 +1,5 @@
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styles from "src/styles/css/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const Header = () => {
   return (
