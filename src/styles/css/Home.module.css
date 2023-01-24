@@ -233,7 +233,7 @@
 .about .companyImg {
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-flex-end;
   justify-content: space-between;
 }
 .about .companyImg .author {
@@ -548,37 +548,58 @@
 }
 .contact .contactBox .formBox {
   border-bottom: solid 0.1rem #e2e3e5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 0 2rem;
+  margin-bottom: 2rem;
+}
+.contact .contactBox .formBox .left {
   display: flex;
   align-items: flex-end;
-  padding: 0 2rem 2rem;
 }
-.contact .contactBox .formBox p {
+.contact .contactBox .formBox .left .title {
   font-size: 1.6rem;
-}
-.contact .contactBox .formBox :nth-child(1) {
   margin-right: 1.6rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
-.contact .contactBox .formBox :nth-child(2) {
+.contact .contactBox .formBox .left .essential {
   font-size: 1rem;
   line-height: 1rem;
   padding: 0.3rem 1.1rem;
   color: #fff;
   background-color: #e51a3f;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
 }
-.contact .contactBox .formBox :nth-child(4) {
-  width: 6.8rem;
-  text-align: center;
+.contact .contactBox .formBox .right {
   display: flex;
-  float: right;
+  align-items: flex-end;
 }
-.contact .contactBox .formBox input {
+.contact .contactBox .formBox .right input {
   border: 0.1rem solid #b5b9be;
   border-radius: 0.3rem;
-  width: 24.8rem;
+  width: 31rem;
   height: 5rem;
+}
+.contact .contactBox .formBox .right p {
+  font-size: 1.6rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 1.85rem;
+  text-align: center;
+}
+.contact .contactBox .btn {
+  position: relative;
+  width: 36.5rem;
+  height: 7.5rem;
+  margin: 4rem auto 0;
 }
 
 /*# sourceMappingURL=Home.module.css.map */
