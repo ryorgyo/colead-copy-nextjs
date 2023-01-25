@@ -1,0 +1,24 @@
+.thanks {
+  background-color: #eaf3fa;
+  padding: 8rem 32rem;
+  .box {
+    background-color: #fff;
+    border-top-left-radius: 4rem;
+    padding: 4.6rem 12.7rem;
+    h2 {
+      font-size: 2.8rem;
+      line-height: 2.8rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 1.5em;
+      text-align: center;
+      padding: 4rem 0 0;
+      span {
+        display: block;
+      }
+    }
+  }
+}

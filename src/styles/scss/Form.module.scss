@@ -1,0 +1,343 @@
+.contact {
+  background-color: #eaf3fa;
+  padding: 7.9rem 32rem 10rem;
+
+  .slogan {
+    font-weight: bold;
+    margin-bottom: 7.8rem;
+    p {
+      font-size: 4.6rem;
+      line-height: 4.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 9rem;
+        line-height: 9rem;
+        color: #e51a3f;
+      }
+    }
+    h2 {
+      font-size: 6rem;
+      line-height: 6rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .contactBox {
+    background-color: #fff;
+    border-top-left-radius: 4rem;
+    padding: 4.7rem 4rem 6rem;
+    position: relative;
+    h3 {
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 4.5rem;
+    }
+    .formBox {
+      border-bottom: solid 0.1rem #e2e3e5;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 0 2rem;
+      margin-bottom: 2rem;
+      .left {
+        display: flex;
+        align-items: flex-end;
+        .title {
+          font-size: 1.6rem;
+          margin-right: 2.2rem;
+          width: max-content;
+        }
+        .essential {
+          font-size: 1rem;
+          line-height: 1rem;
+          padding: 0.3rem 1.1rem;
+          color: #fff;
+          background-color: #e51a3f;
+          width: max-content;
+          height: min-content;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: flex-end;
+        input {
+          border: 0.1rem solid #b5b9be;
+          border-radius: 0.3rem;
+          width: 31rem;
+          height: 5rem;
+        }
+        p {
+          font-size: 1.6rem;
+          width: max-content;
+          margin-left: 1.85rem;
+          text-align: center;
+        }
+      }
+    }
+    .btn {
+      position: relative;
+      width: 36.5rem;
+      height: 7.5rem;
+      margin: 4rem auto 0;
+    }
+  }
+  .invisible {
+    .title {
+      font-size: 2.8rem;
+      line-height: 2.8rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 5.7rem 0 2.65rem 0;
+    }
+    .borderImg {
+      width: 71.8rem;
+      height: 0.7rem;
+      position: relative;
+    }
+    .aboutFee {
+      display: flex;
+      align-items: flex-end;
+      .headline {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        font-weight: bold;
+      }
+      input {
+        width: 51.6rem;
+        height: 5rem;
+        border: solid 0.1rem #b5b9be;
+        border-radius: 0.3rem;
+        background-color: #fff5f7;
+        margin: 3rem 3.3rem 0 4.5rem;
+      }
+      .unit {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+      }
+    }
+    .triangle {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  }
+  .form {
+    .detail {
+      font-size: 2.6rem;
+      font-weight: bold;
+      width: 67.6rem;
+      text-align: center;
+      padding: 5.7rem 0 3.5rem;
+      margin: auto;
+    }
+    .formBox {
+      width: 80rem;
+      background-color: #fff;
+      padding: 3.2rem 4rem 5rem;
+      border-top-left-radius: 4rem;
+      .oneItem {
+        border-bottom: solid 0.1rem #e2e3e5;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 2rem 0;
+        .left {
+          display: flex;
+          align-items: flex-end;
+          .title {
+            font-size: 1.6rem;
+            margin-right: 2.2rem;
+            width: max-content;
+          }
+          .essential {
+            font-size: 1rem;
+            line-height: 1rem;
+            padding: 0.3rem 1.1rem;
+            color: #fff;
+            background-color: #e51a3f;
+            width: max-content;
+            height: min-content;
+          }
+        }
+        .right {
+          display: flex;
+          align-items: flex-end;
+          input {
+            border: 0.1rem solid #b5b9be;
+            border-radius: 0.3rem;
+            width: -webkit-fill-available;
+            height: 5rem;
+          }
+          p {
+            font-size: 1.6rem;
+            width: max-content;
+            margin-left: 1.85rem;
+            text-align: center;
+          }
+        }
+      }
+      .headline {
+        background-color: #eaeaea;
+        margin: 0 -4rem 3.5rem;
+        p {
+          font-size: 2rem;
+          line-height: 2rem;
+          font-weight: bold;
+          padding: 2rem 0 2rem 4rem;
+        }
+      }
+      .nameLine {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        border-bottom: #e2e3e5 solid 0.1rem;
+        padding: 0 0 1.85rem 0;
+        margin: 0 0 2rem 0;
+        .left,
+        .center,
+        .right {
+          display: flex;
+          align-items: center;
+        }
+        .left {
+          p {
+            font-size: 1.8rem;
+            line-height: 1.8rem;
+          }
+          .essential {
+            font-size: 1rem;
+            line-height: 1rem;
+            padding: 0.3rem 1.1rem;
+            color: #fff;
+            background-color: #e51a3f;
+            width: max-content;
+            height: min-content;
+            margin-left: 3rem;
+          }
+        }
+        input {
+          width: 14rem;
+          height: 5rem;
+          border: 0.1rem solid #b5b9be;
+          border-radius: 0.3rem;
+        }
+        .unit {
+          font-size: 1.6rem;
+          line-height: 1.6rem;
+          margin-right: 1rem;
+        }
+        .right {
+          margin: 0 0 0 auto;
+        }
+      }
+      .radio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 0;
+        border-bottom: #e2e3e5 solid 0.1rem;
+        .left,
+        .right {
+          display: flex;
+        }
+        .left p,
+        .unit {
+          font-size: 1.8rem;
+          line-height: 1.8rem;
+        }
+        .right {
+          .any,
+          .none {
+            input {
+              position: absolute;
+              white-space: nowrap;
+              border: 0;
+              clip: rect(0 0 0 0);
+              clip-path: inset(50%);
+              overflow: hidden;
+              height: 0.1rem;
+              width: 0.1rem;
+              margin: -0.1rem;
+              padding: 0;
+              &:checked {
+                & + label {
+                  &::after {
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+            label {
+              cursor: pointer;
+              padding: 0 3rem 0 4rem;
+              position: relative;
+              margin-right: 5rem;
+              &::before,
+              &::after {
+                content: "";
+                display: block;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 100%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+              }
+              &::before {
+                background-color: #fff;
+                border: 0.1rem solid #e2e3e5;
+                height: 2.5rem;
+                width: 2.5rem;
+                left: 0.5rem;
+              }
+              &::after {
+                background-color: #3895ff;
+                opacity: 0;
+                height: 1.9rem;
+                width: 1.9rem;
+                left: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+      .explan {
+        padding: 2rem 0 1rem;
+        font-size: 1.4rem;
+        line-height: 1.5em;
+        text-align: center;
+        width: 60rem;
+        margin: auto;
+        span {
+          color: #3895ff;
+        }
+      }
+      .privacy {
+        display: flex;
+        width: max-content;
+        margin: auto;
+        .check {
+          border: #e2e3e5 solid 0.1rem;
+          border-radius: 0.3rem;
+          width: 2rem;
+          height: 2rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .confirmImg {
+        display: block;
+        position: relative;
+        width: 36.5rem;
+        height: 7.5rem;
+        margin: 3rem auto 0;
+      }
+    }
+  }
+}
