@@ -1,0 +1,358 @@
+.contact {
+  background-color: #eaf3fa;
+  padding: 7.9rem 32rem 10rem;
+}
+.contact .slogan {
+  font-weight: bold;
+  margin-bottom: 7.8rem;
+}
+.contact .slogan p {
+  font-size: 4.6rem;
+  line-height: 4.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .slogan p span {
+  font-size: 9rem;
+  line-height: 9rem;
+  color: #e51a3f;
+}
+.contact .slogan h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.contact .contactBox {
+  background-color: #fff;
+  border-top-left-radius: 4rem;
+  padding: 4.7rem 4rem 6rem;
+  position: relative;
+}
+.contact .contactBox h3 {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+.contact .contactBox .formBox {
+  border-bottom: solid 0.1rem #e2e3e5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 0 2rem;
+  margin-bottom: 2rem;
+}
+.contact .contactBox .formBox .left {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .contactBox .formBox .left .title {
+  font-size: 1.6rem;
+  margin-right: 2.2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.contact .contactBox .formBox .left .essential {
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.3rem 1.1rem;
+  color: #fff;
+  background-color: #e51a3f;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.contact .contactBox .formBox .right {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .contactBox .formBox .right input {
+  border: 0.1rem solid #b5b9be;
+  border-radius: 0.3rem;
+  width: 31rem;
+  height: 5rem;
+}
+.contact .contactBox .formBox .right p {
+  font-size: 1.6rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 1.85rem;
+  text-align: center;
+}
+.contact .contactBox .btn {
+  position: relative;
+  width: 36.5rem;
+  height: 7.5rem;
+  margin: 4rem auto 0;
+}
+.contact .invisible .title {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 5.7rem 0 2.65rem 0;
+}
+.contact .invisible .borderImg {
+  width: 71.8rem;
+  height: 0.7rem;
+  position: relative;
+}
+.contact .invisible .aboutFee {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .invisible .aboutFee .headline {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+}
+.contact .invisible .aboutFee input {
+  width: 51.6rem;
+  height: 5rem;
+  border: solid 0.1rem #b5b9be;
+  border-radius: 0.3rem;
+  background-color: #fff5f7;
+  margin: 3rem 3.3rem 0 4.5rem;
+}
+.contact .invisible .aboutFee .unit {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+.contact .invisible .triangle {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.contact .form .detail {
+  font-size: 2.6rem;
+  font-weight: bold;
+  width: 67.6rem;
+  text-align: center;
+  padding: 5.7rem 0 3.5rem;
+  margin: auto;
+}
+.contact .form .formBox {
+  width: 80rem;
+  background-color: #fff;
+  padding: 3.2rem 4rem 5rem;
+  border-top-left-radius: 4rem;
+}
+.contact .form .formBox .oneItem {
+  border-bottom: solid 0.1rem #e2e3e5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 2rem 0;
+}
+.contact .form .formBox .oneItem .left {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .form .formBox .oneItem .left .title {
+  font-size: 1.6rem;
+  margin-right: 2.2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.contact .form .formBox .oneItem .left .essential {
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.3rem 1.1rem;
+  color: #fff;
+  background-color: #e51a3f;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.contact .form .formBox .oneItem .right {
+  display: flex;
+  align-items: flex-end;
+}
+.contact .form .formBox .oneItem .right input {
+  border: 0.1rem solid #b5b9be;
+  border-radius: 0.3rem;
+  width: -webkit-fill-available;
+  height: 5rem;
+}
+.contact .form .formBox .oneItem .right p {
+  font-size: 1.6rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 1.85rem;
+  text-align: center;
+}
+.contact .form .formBox .headline {
+  background-color: #eaeaea;
+  margin: 0 -4rem 3.5rem;
+}
+.contact .form .formBox .headline p {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  padding: 2rem 0 2rem 4rem;
+}
+.contact .form .formBox .nameLine {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: #e2e3e5 solid 0.1rem;
+  padding: 0 0 1.85rem 0;
+  margin: 0 0 2rem 0;
+}
+.contact .form .formBox .nameLine .left,
+.contact .form .formBox .nameLine .center,
+.contact .form .formBox .nameLine .right {
+  display: flex;
+  align-items: center;
+}
+.contact .form .formBox .nameLine .left p {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.contact .form .formBox .nameLine .left .essential {
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.3rem 1.1rem;
+  color: #fff;
+  background-color: #e51a3f;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin-left: 3rem;
+}
+.contact .form .formBox .nameLine input {
+  width: 14rem;
+  height: 5rem;
+  border: 0.1rem solid #b5b9be;
+  border-radius: 0.3rem;
+}
+.contact .form .formBox .nameLine .unit {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin-right: 1rem;
+}
+.contact .form .formBox .nameLine .right {
+  margin: 0 0 0 auto;
+}
+.contact .form .formBox .radio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 0;
+  border-bottom: #e2e3e5 solid 0.1rem;
+}
+.contact .form .formBox .radio .left,
+.contact .form .formBox .radio .right {
+  display: flex;
+}
+.contact .form .formBox .radio .left p,
+.contact .form .formBox .radio .unit {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.contact .form .formBox .radio .right .any input,
+.contact .form .formBox .radio .right .none input {
+  position: absolute;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  overflow: hidden;
+  height: 0.1rem;
+  width: 0.1rem;
+  margin: -0.1rem;
+  padding: 0;
+}
+.contact .form .formBox .radio .right .any input:checked + label::after,
+.contact .form .formBox .radio .right .none input:checked + label::after {
+  opacity: 1;
+}
+.contact .form .formBox .radio .right .any label,
+.contact .form .formBox .radio .right .none label {
+  cursor: pointer;
+  padding: 0 3rem 0 4rem;
+  position: relative;
+  margin-right: 5rem;
+}
+.contact .form .formBox .radio .right .any label::before, .contact .form .formBox .radio .right .any label::after,
+.contact .form .formBox .radio .right .none label::before,
+.contact .form .formBox .radio .right .none label::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.contact .form .formBox .radio .right .any label::before,
+.contact .form .formBox .radio .right .none label::before {
+  background-color: #fff;
+  border: 0.1rem solid #e2e3e5;
+  height: 2.5rem;
+  width: 2.5rem;
+  left: 0.5rem;
+}
+.contact .form .formBox .radio .right .any label::after,
+.contact .form .formBox .radio .right .none label::after {
+  background-color: #3895ff;
+  opacity: 0;
+  height: 1.9rem;
+  width: 1.9rem;
+  left: 0.5rem;
+}
+.contact .form .formBox .explan {
+  padding: 2rem 0 1rem;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  text-align: center;
+  width: 60rem;
+  margin: auto;
+}
+.contact .form .formBox .explan span {
+  color: #3895ff;
+}
+.contact .form .formBox .privacy {
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+.contact .form .formBox .privacy .check {
+  border: #e2e3e5 solid 0.1rem;
+  border-radius: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+}
+.contact .form .formBox .privacy p {
+  font-size: 1.6rem;
+}
+.contact .form .formBox .confirmImg {
+  display: block;
+  position: relative;
+  width: 36.5rem;
+  height: 7.5rem;
+  margin: 3rem auto 0;
+}
+
+/*# sourceMappingURL=Form.module.css.map */

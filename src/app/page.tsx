@@ -7,23 +7,23 @@ import { FirstView } from "src/component/FirstView";
 import { Hero } from "src/component/Hero";
 import { Contact } from "src/component/Contact";
 import React from "react";
+import { Form } from "src/component/Form";
 
 const Home = () => {
   return (
-    <div>
-      <main>
-        <FirstView />
-        <Hero />
-        <About />
-        <CvContact />
-        <Reason />
-        <CvContact />
-        <Flow />
-        <Faq />
-        <CvContact />
-        <Contact />
-      </main>
-    </div>
+    <main>
+      <FirstView />
+      <Hero />
+      <About />
+      <CvContact />
+      <Reason />
+      <CvContact />
+      <Flow />
+      <Faq />
+      <CvContact />
+      {/* <Contact /> */}
+      <Form />
+    </main>
   );
 };
 

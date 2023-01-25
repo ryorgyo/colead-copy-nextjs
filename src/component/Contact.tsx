@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { MouseEventHandler, useRef } from "react";
-import styles from "src/styles/css/Contact.module.css";
+// import styles from "src/styles/css/Contact.module.css";
+import styles from "src/styles/css/Form.module.css";
 
 export const Contact = () => {
   const FORMITEMS = [
@@ -21,7 +22,7 @@ export const Contact = () => {
       title: "稼働開始年月",
       name: "period",
       essential: true,
-      unit: true,
+      unit: false,
     },
   ];
 
@@ -47,7 +48,7 @@ export const Contact = () => {
                 </div>
                 <div className={styles.right}>
                   <input type="number" name={item.name} id={item.name} />
-                  {item.essential ? <p>万円</p> : null}
+                  {item.unit ? <p>万円</p> : null}
                 </div>
               </div>
             );
