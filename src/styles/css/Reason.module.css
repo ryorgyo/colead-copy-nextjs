@@ -1,0 +1,88 @@
+.reason {
+  background-color: #f0f0f0;
+  padding: 8.2rem 22rem 4.6111rem;
+  height: 127.4rem;
+}
+.reason h2 {
+  font-size: 5.5rem;
+  line-height: 9.4rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-bottom: 9rem;
+  z-index: 1;
+}
+.reason h2::before {
+  content: "REASON";
+  color: #e8e8eb;
+  font-size: 12.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: -1;
+}
+.reason h2 :nth-child(1) {
+  margin-right: 0.6rem;
+}
+.reason h2 :nth-child(2) {
+  margin-left: 0.6rem;
+}
+.reason h2 span {
+  font-size: 9.4rem;
+  color: #e51a3f;
+}
+.reason .cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.reason .cardList .card {
+  width: 47.5rem;
+  height: 42.7rem;
+  padding: 1.5rem 3rem 0;
+  background-color: #fff;
+  border-top-left-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 5.4rem;
+}
+.reason .cardList .card .number {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: bold;
+  color: #e51a3f;
+  position: absolute;
+  top: -7%;
+  left: 0;
+  z-index: 2;
+}
+.reason .cardList .card .reasonImg {
+  position: unset;
+  margin-bottom: 2rem;
+}
+.reason .cardList .card .reasonImg .img {
+  position: relative !important;
+  width: 75% !important;
+  height: unset !important;
+  display: block;
+  margin: auto;
+}
+.reason .cardList .card h3 {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  width: 39rem;
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+.reason .cardList .card .dis {
+  font-size: 1.6rem;
+  line-height: 2.9rem;
+  width: 41.5rem;
+}
+
+/*# sourceMappingURL=Reason.module.css.map */

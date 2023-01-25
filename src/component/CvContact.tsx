@@ -1,5 +1,6 @@
 import Image from "next/image";
-import styles from "src/styles/css/Home.module.css";
+import styles from "src/styles/css/CvContact.module.css";
+import { GlobalBtn } from "src/component/GlobalBtn";
 
 export const CvContact = () => {
   return (
@@ -19,9 +20,7 @@ export const CvContact = () => {
         <h2>
           <Image src={"/global/global-logo.png"} alt={""} fill sizes="" />
         </h2>
-        <div className={styles.own}>
-          <Image src={"/global/global-btn.png"} alt={""} fill sizes="" />
-        </div>
+        <GlobalBtn />
       </section>
     </div>
   );

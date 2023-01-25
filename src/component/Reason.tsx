@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "src/styles/css/Home.module.css";
+import styles from "src/styles/css/Reason.module.css";
 
 export const Reason = () => {
   const CARDS = [

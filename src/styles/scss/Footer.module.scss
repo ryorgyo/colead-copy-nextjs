@@ -1,0 +1,31 @@
+.footer {
+  height: 23.1rem;
+  padding: 4rem 32rem 3.1rem 32rem;
+  background-color: #333333;
+  .imgDiv {
+    position: relative;
+    width: 19rem;
+    height: 4.8rem;
+    margin: auto;
+  }
+  .textDiv {
+    margin: 2.5rem 0 3.5rem;
+    p {
+      font-size: 1.6rem;
+      height: 1.8rem;
+      color: #fff;
+    }
+    :nth-child(1) {
+      margin-bottom: 0.6rem;
+    }
+  }
+  .copyright {
+    width: max-content;
+    margin: auto;
+    p {
+      font-size: 1rem;
+      line-height: 1rem;
+      color: #fff;
+    }
+  }
+}

@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
-import styles from "src/styles/css/Home.module.css";
+import React, { MouseEventHandler, useRef } from "react";
+import styles from "src/styles/css/Contact.module.css";
 
 export const Contact = () => {
   const FORMITEMS = [
@@ -22,8 +24,9 @@ export const Contact = () => {
       unit: true,
     },
   ];
+
   return (
-    <div>
+    <div id="contact">
       <section className={styles.contact}>
         <div className={styles.slogan}>
           <p>
