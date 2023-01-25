@@ -1,0 +1,86 @@
+.contact {
+  background-color: #eaf3fa;
+  padding: 7.9rem 32rem 10rem;
+
+  .slogan {
+    font-weight: bold;
+    margin-bottom: 7.8rem;
+    p {
+      font-size: 4.6rem;
+      line-height: 4.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 9rem;
+        line-height: 9rem;
+        color: #e51a3f;
+      }
+    }
+    h2 {
+      font-size: 6rem;
+      line-height: 6rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .contactBox {
+    background-color: #fff;
+    border-top-left-radius: 4rem;
+    padding: 4.7rem 4rem 6rem;
+    h3 {
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 4.5rem;
+    }
+    .formBox {
+      border-bottom: solid 0.1rem #e2e3e5;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 0 2rem;
+      margin-bottom: 2rem;
+      .left {
+        display: flex;
+        align-items: flex-end;
+        .title {
+          font-size: 1.6rem;
+          margin-right: 1.6rem;
+          width: max-content;
+        }
+        .essential {
+          font-size: 1rem;
+          line-height: 1rem;
+          padding: 0.3rem 1.1rem;
+          color: #fff;
+          background-color: #e51a3f;
+          width: max-content;
+          height: min-content;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: flex-end;
+        input {
+          border: 0.1rem solid #b5b9be;
+          border-radius: 0.3rem;
+          width: 31rem;
+          height: 5rem;
+        }
+        p {
+          font-size: 1.6rem;
+          width: max-content;
+          margin-left: 1.85rem;
+          text-align: center;
+        }
+      }
+    }
+    .btn {
+      position: relative;
+      width: 36.5rem;
+      height: 7.5rem;
+      margin: 4rem auto 0;
+    }
+  }
+}

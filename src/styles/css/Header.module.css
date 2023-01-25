@@ -1,0 +1,22 @@
+.header {
+  background-color: white;
+  height: 8rem;
+  display: flex;
+  padding: 0 0 0 22rem;
+}
+.header .imgDiv {
+  position: relative;
+  width: 19rem;
+  height: 4.8rem;
+  margin: auto 2rem auto 0;
+}
+.header .textDiv {
+  line-height: 2.5rem;
+  margin: auto 0;
+}
+.header .textDiv p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

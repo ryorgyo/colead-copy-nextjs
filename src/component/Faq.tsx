@@ -1,4 +1,4 @@
-import styles from "src/styles/css/Home.module.css";
+import styles from "src/styles/css/Faq.module.css";
 
 export const Faq = () => {
   const QUESTIONS = [

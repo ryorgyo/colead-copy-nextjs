@@ -1,5 +1,6 @@
 import Image from "next/image";
-import styles from "src/styles/css/Home.module.css";
+import styles from "src/styles/css/FirstView.module.css";
+import { GlobalBtn } from "src/component/GlobalBtn";
 
 export const FirstView = () => {
   return (
@@ -30,9 +31,7 @@ export const FirstView = () => {
             <Image src={"/firstView/right.png"} alt={""} fill sizes="" />
           </div>
         </div>
-        <div className={`${styles.btnImg} ${styles.img}`}>
-          <Image src={"/global/global-btn.png"} alt={""} fill sizes="" />
-        </div>
+        <GlobalBtn />
       </section>
     </div>
   );

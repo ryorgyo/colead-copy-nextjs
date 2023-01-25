@@ -1,0 +1,65 @@
+.firstView {
+  height: 70.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8.9rem 0 8.2rem;
+  position: relative;
+}
+.firstView .backgroundImg {
+  z-index: -1;
+  filter: brightness(75%);
+}
+.firstView .slogan {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.firstView .slogan :nth-child(1) {
+  font-size: 3.7rem;
+  line-height: 3.7rem;
+}
+.firstView .slogan :nth-child(1) span {
+  color: #e51a3f;
+  text-shadow: 0 0 black;
+}
+.firstView .slogan :nth-child(1) :nth-child(1) {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+}
+.firstView .slogan :nth-child(1) :nth-child(2) {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+}
+.firstView .slogan :nth-child(2) {
+  font-size: 6.9rem;
+  line-height: 6.9rem;
+}
+.firstView .slogan :nth-child(2) :nth-child(1) {
+  font-size: 6.1rem;
+  line-height: 6.1rem;
+}
+.firstView .slogan :nth-child(2) :nth-child(2) {
+  font-size: 8.5rem;
+  line-height: 8.5rem;
+}
+.firstView .sloganImg {
+  display: flex;
+  margin-bottom: 11.7rem;
+}
+.firstView .img {
+  position: relative;
+}
+.firstView .leftImg {
+  width: 27rem;
+  height: 5.6rem;
+  margin-right: 6rem;
+}
+.firstView .rightImg {
+  width: 27rem;
+  height: 5.6rem;
+}
+
+/*# sourceMappingURL=FirstView.module.css.map */

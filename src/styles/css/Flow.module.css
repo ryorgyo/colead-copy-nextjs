@@ -1,0 +1,63 @@
+.flow {
+  padding: 9.6rem 17.9rem 14.7rem;
+}
+.flow h2 {
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 11.2rem;
+  z-index: 2;
+}
+.flow h2::before {
+  content: "FLOW";
+  font-size: 14.5rem;
+  line-height: 14.5rem;
+  font-weight: bold;
+  position: absolute;
+  color: #f8f8f8;
+  z-index: -1;
+}
+.flow .cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flow .cardList .flowCard {
+  width: 27rem;
+  margin: 0 4.1rem 6.8rem;
+}
+.flow .cardList .flowCard .step {
+  font-weight: bold;
+  color: #e51a3f;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+.flow .cardList .flowCard .step :nth-child(1) {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.flow .cardList .flowCard .step :nth-child(2) {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.flow .cardList .flowCard .img {
+  position: relative;
+  width: 13rem;
+  height: 13rem;
+  margin: 0 auto 2.5rem;
+}
+.flow .cardList .flowCard h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.flow .cardList .flowCard p {
+  font-size: 1.6rem;
+  line-height: 2.9rem;
+}
+
+/*# sourceMappingURL=Flow.module.css.map */
